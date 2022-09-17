@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex bg-indigo-700">
-      <div className="m-auto w-full max-w-md min-h-min p-8 bg-gray-700 shadow-slate-900 flex flex-col justify-between items-start">
+      <div className="m-auto w-full max-w-md min-h-min px-8 py-8 bg-gray-700 shadow-slate-900 flex flex-col justify-between items-start">
         <p ref={textRef} className="text-white text-2xl break-normal">{quotes.text}</p>
         <p className="my-2.5 text-white text-2xl ">Author: {quotes.author}</p>
         <div>
@@ -40,6 +40,7 @@ function App() {
             Tweet
           </a>
         </div>
+        <h2 className="text-white py-8 text-xl ">Made with ❤ by Bolu</h2>
       </div>
     </div>
   );
