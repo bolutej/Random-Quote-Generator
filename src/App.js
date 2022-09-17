@@ -40,7 +40,7 @@ function App() {
             Tweet
           </a>
         </div>
-        <h2 className="text-white py-8 text-xl ">Made with ❤ by Bolu</h2>
+        <h2 className="text-white py-8 text-xl ">Made with ❤ by <a href="https://twitter.com/BoluTejumola" className="text-sky-400 hover:text-sky-800">Bolu</a></h2>
       </div>
     </div>
   );
